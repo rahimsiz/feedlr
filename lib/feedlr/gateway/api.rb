@@ -2,7 +2,7 @@ require_relative 'feeds'
 require_relative 'categories'
 require_relative 'entries'
 require_relative 'markers'
-require_relative 'subscriptions'
+require_relative 'collections'
 require_relative 'tags'
 require_relative 'topics'
 require_relative 'shorten'
@@ -26,7 +26,7 @@ module Feedlr
       include Entries
       include Streams
       include Markers
-      include Subscriptions
+      include Collections
       include Tags
       include Topics
       include Shorten
